@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Word Art Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+
+        <style>
+
+            body {background-color: rgb(138, 130, 136);}
+            h1 {color: rgb(255, 255, 0); font-style: italic;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+            p{color:blue;background-color: rgb(205, 241, 170); font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;}
+            li{color: rgb(0, 0, 0); font-size: larger;font-family: 'Courier New', Courier, monospace;}           
+            
+            .container {
+                            display: grid; 
+                            grid-template-columns: 0.6fr 1.2fr 0.9fr 1.1fr 1fr; 
+                            grid-template-rows: 0.0fr 0.1fr 1.5fr 0.8fr; 
+                            gap: 0px 0px; 
+                            grid-template-areas: 
+                                ". . . . ."
+                                ". intro intro intro ."
+                                ". wordartImageList . . ."
+                                ". . . . ."
+                                ". Pepperridge Pepperridge . ."
+                                ; 
+                        }
+
+            .intro { grid-area: intro; }
+            .wordartImageList { grid-area: wordartImageList; }
+            .Pepperridge { grid-area: Pepperridge; }
+
+        </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+        <!-- contain all the the content on the webpaage -->
+        <body>
+            <div class="container">
+                <div class="intro">
+                    <h1>Remember WordArt?</h1>
+                    <!-- inline styling -->
+            
+                    <h3>About WordArt</h3>
+                    <p>
+                        <b>WordArt</b> is a text-styling utility, created by Scott Forstall and Nat Brown (later Apple employees) while interning for Microsoft in 1991. 
+                        It allows users to create stylized text with various <i>"special effects"</i> such as textures, outlines, and many other manipulations that are not available 
+                        through the standard font formatting. For example, one can create shadows, rotate, "bend", and "stretch" the shape of the text. ~<a href="https://en.wikipedia.org/wiki/Microsoft_Office_shared_tools#WordArt"><i>Wikipedia</i></a></p>    
+                </div>
+                <div class="wordartImageList">
+                    <h4 id="wordartImageListTitle">WordArt example list</h4>
+                    <ul style="background-color: aliceblue;">
+                        <li>style 1:  
+                            <img style="width: 150px; height: 80px; "
+                            src="wordart (1).png" 
+                            alt="wordart 1">
+                        </li>
+                        <li>style 2:            
+                            <img style="width: 150px; height: 80px; "
+                            src="wordart (2).png" 
+                            alt="wordart 2">
+                        </li>
+
+                        <li>style 3:      
+                            <img style="width: 150px; height: 80px; "
+                            src="wordart (3).png" 
+                            alt="wordart 3">
+                        </li>
+
+                        <li>style 4:      
+                            <img style="width: 150px; height: 80px; "
+                            src="wordart (4).png" 
+                            alt="wordart 4">
+                        </li>
+
+                        <li>style 5:      
+                            <img style="width: 150px; height: 80px; "
+                            src="wordart (5).png" 
+                            alt="wordart 5">
+                        </li>
+
+                        <li>style 6:      
+                            <img style="width: 40px; height: 80px; "
+                            src="wordart (6).png" 
+                            alt="wordart 6">
+                        </li>
+
+                        <li>style 7:      
+                            <img style="width: 150px; height: 80px; "
+                            src="wordart (7).png" 
+                            alt="wordart 7">
+                        </li>
+
+                        <li>style 8:      
+                            <img style="width: 150px; height: 80px; "
+                            src="wordart (8).png" 
+                            alt="wordart 8">
+                        </li>
+
+                        <li>style 9:      
+                            <img style="width: 150px; height: 80px; "
+                            src="wordart (9).png" 
+                            alt="wordart 9">
+                        </li>
+
+                        <li>style 10:     
+                            <img style="width: 150px; height: 80px; "
+                            src="wordart (10).png" 
+                            alt="wordart 10">
+                        </li>
+
+                        <li>style 11:            
+                            <img style="width: 150px; height: 80px; "
+                            src="wordart (11).png" 
+                            alt="wordart 11">
+                        </li>
+
+                        <li>style 12:     
+                            <img style="width: 150px; height: 80px; "
+                            src="wordart (12).png" 
+                            alt="wordart 12">
+                        </li>
+
+                        <li>style 13:     
+                            <img style="width: 150px; height: 80px; "
+                            src="wordart (13).png" 
+                            alt="wordart 13">
+                        </li>
+
+                        <li>style 14:     
+                            <img style="width: 150px; height: 80px; "
+                            src="wordart (14).png" 
+                            alt="wordart 14">
+                        </li>
+
+                        <li>style 15:     
+                            <img style="width: 150px; height: 80px; "
+                            src="wordart (15).png" 
+                            alt="wordart 15">
+                        </li>
+                    </ul>
+                </div>
+                <div class="Pepperridge">
+                    <img style="width: 800px; height: 450px; "
+                    src="https://i.redd.it/7g93udvoih751.png" 
+                    alt="Pepperridge farm remembers">
+                </div>
+            </div>
+        </body>    
+</html>
